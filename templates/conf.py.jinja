@@ -1,16 +1,16 @@
 # Configuration file for the Sphinx documentation builder.
 #
-# For the full list of built-in configuration values, see the documentation:
+# This file only contains a selection of the most common options. For a full
+# list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-# CHANGE THESE TO MATCH YOUR PROJECT
-project = 'CSCI310 Template 2025'
-copyright = '2025, Seth McNeill'
-author = 'Seth McNeill'
-release = '0.1'
+project = '{{ project }}'
+copyright = '{{ copyright }}'
+author = '{{ author }}'
+release = '{{ release }}'
 
 import os
 import sys
@@ -25,13 +25,11 @@ extensions = [
     'sphinx.ext.napoleon',
 ]
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-
+templates_path = ['{{ dot }}templates']
+exclude_patterns = [{{ exclude_patterns }}]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'alabaster'
-html_static_path = ['_static']
+html_static_path = ['{{ dot }}static']
