@@ -21,4 +21,4 @@ These instructions assume the following:
 1. Change directory in terminal to the docs folder (`cd docs`)
 1. Run `make html` on a Mac or `.\make.bat html` on Windows
 1. If it runs successfully, you are ready to modify the code to implement your project
-1. Lastly, modify this README.md file to match your project
+1. Lastly, modify this `README.md` file to match your project
