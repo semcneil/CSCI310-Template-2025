@@ -18,6 +18,7 @@ These instructions assume the following:
 1. Run `sphinxsphinx-quickstart -t ../templates`
 1. Run `make html` on a Mac or `.\make.bat html` on Windows
 1. This should finish with `build succeeded`
+1. Add `conf.py` (should just show as modified) and `index.rst` (should show as new file) to your repository
 1. Change the name of `hello.py` to something related to your project
 1. Change the name `hello` in `index.rst` to the name of your file
 1. Modify both `conf.py` and `index.rst` to have the correct project name, author, and date
