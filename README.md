@@ -15,7 +15,7 @@ These instructions assume the following:
 1. Activate the virtual environment as the output from creating it says to
 1. Install [Sphinx](https://www.sphinx-doc.org/en/master/) (`uv pip install sphinx`)
 1. Change directory in terminal to the docs folder (`cd docs`)
-1. Run `sphinxsphinx-quickstart -t ../templates`
+1. Run `sphinx-quickstart -t ../templates`
 1. Run `make html` on a Mac or `.\make.bat html` on Windows
 1. This should finish with `build succeeded`
 1. Add `conf.py` (should just show as modified) and `index.rst` (should show as new file) to your repository
