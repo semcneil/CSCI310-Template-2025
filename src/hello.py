@@ -26,7 +26,7 @@ class SayHello:
     Examples
     --------
     >>> hello = SayHello("Bob")
-    >>> hello.greet(', welcome!)
+    >>> hello.greet(', welcome!')
     Hello Bob, welcome!
     """
     
