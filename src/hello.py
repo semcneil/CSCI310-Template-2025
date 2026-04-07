@@ -43,7 +43,7 @@ class SayHello:
    
     def greet(self, extraText):
         """
-        Clamp a stat value between minimum and maximum bounds.
+        Greets self.name and adds extraText to the output.
         
         Parameters
         ----------
