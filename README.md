@@ -15,7 +15,7 @@ These instructions assume the following:
 1. Activate the virtual environment as the output from creating it says to
 1. Install [Sphinx](https://www.sphinx-doc.org/en/master/) (`uv pip install sphinx`)
 1. Change directory in terminal to the docs folder (`cd docs`)
-1. Run `sphinx-quickstart -t ../templates`
+1. Run `sphinx-quickstart -t ../templates/`
 1. It will ask if you want separate source and build directories. Choose the default: n
 1. Type your project name at the next prompt
 1. Type your name at the Author name(s) prompt
