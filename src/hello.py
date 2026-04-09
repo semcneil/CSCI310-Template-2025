@@ -21,7 +21,7 @@ class SayHello:
     Attributes
     ----------
     name : str
-        The pet's name
+        The user's name
         
     Examples
     --------
