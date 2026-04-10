@@ -32,4 +32,4 @@ These instructions assume the following:
 1. If it runs successfully, you are ready to modify the code to implement your project
 1. Modify this `README.md` file to match your project
 1. Check the HTML output that can be found in `docs/_build/html/index.html` to make sure it looks correct
-1. Make sure that the relavent (hand edited) files are committed and pushed to your GitHub repository
+1. Make sure that the relevent (hand edited) files are committed and pushed to your GitHub repository
