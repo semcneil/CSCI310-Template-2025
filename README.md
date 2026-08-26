@@ -22,14 +22,15 @@ These instructions assume the following:
 1. You can press enter for no project release or you can enter something (0.1.0 or S2026 or similar)
 1. Press enter to accept English (en) as the project language
 1. Run `make html` on a Mac or `.\make.bat html` on Windows
-1. This should finish with `build succeeded`
-1. Add `conf.py` (should just show as modified) and `index.rst` (should show as new file) to your repository
-1. Change the name of `hello.py` to something related to your project
-1. Change the name `hello` in `index.rst` to the name of your file
-1. Modify both `conf.py` and `index.rst` to have the correct project name, author, and date
+1. This should finish with `build succeeded` and NO warnings
+1. Change to the base directory: `cd ..`
+1. Using `git mv src/hello.py src/newname.py` change the name of `hello.py` to something related to your project
+1. Change the name `hello` in `index.rst` to the new name of your file
+1. Modify `index.rst` to have a correct description of your project
 1. Modify your .py file to have your name and current date in the top docstring and to describe your project
-1. Make the documentation again by running `make html` on a Mac or `.\make.bat html` on Windows
-1. If it runs successfully, you are ready to modify the code to implement your project
+1. Make the documentation again by running `make html` on a Mac or `.\make.bat html` on Windows in the `docs` folder
+1. If it runs successfully, you are ready to make the first commit with everything working
 1. Modify this `README.md` file to match your project
+1. Add `conf.py` (should just show as modified) and `index.rst` (should show as new file), `README.md`, and your .py file to your repository
 1. Check the HTML output that can be found in `docs/_build/html/index.html` to make sure it looks correct
 1. Make sure that the relevent (hand edited) files are committed and pushed to your GitHub repository
